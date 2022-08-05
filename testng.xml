@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+<listener class-name="com.reports.Listeners"/>
+
+
+</listeners>
+  <test  name="Test">
+  <parameter name="Brower" value="Chrome">
+  </parameter>
+    <classes>
+    <!--   <class name="com.inetbanking.testcase.TC_Loginpage_01"/> -->
+      <class name="com.inetbanking.testcase.addcustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
